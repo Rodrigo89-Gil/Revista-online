@@ -1,0 +1,16 @@
+.main__content-sidebar-tags {
+    border-bottom: 1px solid gray;
+}
+
+.main__content-sidebar-tags ul {
+    padding: 0;
+    list-style: none;
+}
+
+.main__content-sidebar-tags ul li {
+    padding: 2px 4px;
+    background-color: steelblue;
+    margin-right: 1px;
+    color: white;
+    display: inline-block;
+}

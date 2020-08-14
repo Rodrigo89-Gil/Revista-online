@@ -1,0 +1,46 @@
+//base
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+
+    @include respond-to('small') {
+        font-family: monospace;
+        }
+
+    @include respond-to('medium') {
+        font-family: monospace;
+        }
+
+    @include respond-to('large') {
+        font-family: monospace;
+        }
+
+    @include respond-to('extra-large') {
+        font-family: monospace;
+        }
+}
+
+
+#site-wrapper {
+
+    margin: 0 auto;
+
+    @include respond-to('small') {
+        width: 100%;
+        }
+
+    @include respond-to('medium') {
+        width: 100%;
+        }
+
+    @include respond-to('large') {
+        width: 960px;
+        }
+
+    @include respond-to('extra-large') {
+        width: 960px;
+        }
+}

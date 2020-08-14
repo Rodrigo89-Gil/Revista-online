@@ -1,0 +1,26 @@
+//aside
+.main__content-sidebar {
+    width: 220px;
+    float: right;
+    display: none;
+    @include respond-to('large') {
+        display: block;
+        }
+    @include respond-to('extra-large') {
+        display: block;
+        }
+}
+.main__content-sidebar-about {
+    width: 220px;
+    border-bottom: 1px solid gray;
+}
+
+
+.main__content-sidebar-news {
+    margin-bottom: 50px;
+}
+
+.main__content-sidebar-news img {
+    width: 220px;
+    height: 200px;
+}
